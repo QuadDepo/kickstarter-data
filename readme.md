@@ -6,16 +6,22 @@ The NodeJs data wrapper you always dreamed of using/forking.
 
 ### Project
 
+The project domain pertains solely to data found on the project page. 
+
+### new KS.project(option)
 * What: Gives you access to detail about a project.
 * Options: the single argument passed to the constructor is an object that can contain the following field(s)
 	* url: the kickstarter project url
 
 ```javascript
 var KS = require("./index");
-var project = new KS.project("KICKSTARTER_URL");
+var options = {
+	url = "SOME_KICKSTARTER_PROJECT_URL"
+}
+var project = new KS.project(options);
 ```
 
-#### pledged()
+#### pledged(callback)
 
 * What: informs the project object that you want to select the pledged field in your requests.
 * Arguments:
@@ -35,21 +41,42 @@ project.pledged(function(err, data){
 *******************************/
 ```
 
-#### currency()
+#### currency(callback)
 
-#### endTime()
+#### endTime(callback)
 
-#### duration()
+#### duration(callback)
 
-#### timeLeft()
+#### timeLeft(callback)
 
-#### startTime()
+#### startTime(callback)
 
-#### posterUrl()
+#### posterUrl(callback)
 
-#### creator()
+#### creator(callback)
+
+#### request(callback)
+
+* What: Gathers the queued fields and passes an err and result object to the provided callback.
+
+```javascript
+project.pledged().timeLeft().request(function(err, data){
+	console.log(err);
+	console.log(data);
+});
+
+/*********** RESULT ************
+** err: Undefined             **
+** data: {                    **
+** 	pledged: 1000,            **
+**  timeLeft: 4444            **
+** }                          **
+*******************************/
+```
 
 ### Discover
+
+The discover domain pertains to all data found under the discover tab of the site. This is still very much in progress.
 
 
 
