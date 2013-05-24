@@ -41,19 +41,15 @@ project.pledged(function(err, data){
 *******************************/
 ```
 
-#### currency(callback)
+#### Other endpoints simular to pledged
 
-#### endTime(callback)
-
-#### duration(callback)
-
-#### timeLeft(callback)
-
-#### startTime(callback)
-
-#### posterUrl(callback)
-
-#### creator(callback)
+* currency(callback)
+* endTime(callback)
+* duration(callback)
+* timeLeft(callback)
+* startTime(callback)
+* posterUrl(callback)
+* creator(callback)
 
 #### request(callback)
 
