@@ -43,6 +43,7 @@ project.pledged(function(err, data){
 
 #### Other endpoints simular to pledged
 
+* goal(callback)
 * currency(callback)
 * endTime(callback)
 * duration(callback)
