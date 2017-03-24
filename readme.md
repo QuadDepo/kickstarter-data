@@ -2,6 +2,8 @@
 
 The NodeJs data wrapper you always dreamed of using/forking.
 
+**This project is no longer under active development and does not work with Kickstarters current html. If you want to take over this project, please feel free to contact me via email and I'll transfer the project to you.**
+
 ## API
 
 ### Project
