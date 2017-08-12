@@ -8,7 +8,7 @@ The NodeJs data wrapper you always dreamed of using/forking.
 
 ### Project
 
-The project domain pertains solely to data found on the project page. 
+The project domain pertains solely to data found on the project page.
 
 ### new KS.project(option)
 * What: Gives you access to detail about a project.
@@ -18,7 +18,7 @@ The project domain pertains solely to data found on the project page.
 ```javascript
 var KS = require("./index");
 var options = {
-	url = "SOME_KICKSTARTER_PROJECT_URL"
+	url: "SOME_KICKSTARTER_PROJECT_URL"
 }
 var project = new KS.project(options);
 ```
@@ -75,6 +75,3 @@ project.pledged().timeLeft().request(function(err, data){
 ### Discover
 
 The discover domain pertains to all data found under the discover tab of the site. This is still very much in progress.
-
-
-
