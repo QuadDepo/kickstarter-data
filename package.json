@@ -2,14 +2,14 @@
   "name": "kickstarter",
   "version": "0.0.2",
   "author": {
-    "name": "Matthew Chase Whittemore",
-    "email": "mcwhittemore@gmail.com"
+    "name": "Ryan George",
+    "email": "ryan@styxs.nl"
   },
   "description": "Get data from kickstarter",
   "contributors": [
     {
-      "name": "Matthew Chase Whittemore",
-      "email": "mcwhittemore@gmail.com"
+      "name": "Ryan George",
+      "email": "ryan@styxs.nl"
     }
   ],
   "keywords": [
@@ -20,7 +20,7 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcwhittemore/kickstarter-data.git"
+    "url": "https://github.com/QuadDepo/kickstarter-data"
   },
   "dependencies": {
     "request": "2.21.0",
